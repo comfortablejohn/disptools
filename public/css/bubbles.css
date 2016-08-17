@@ -1,0 +1,23 @@
+html {
+  font-family: "Quicksand", sans-serif; }
+
+@keyframes wobble {
+  0% {
+    bottom: 0; }
+  100% {
+    bottom: 30px; } }
+.bubble {
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  border-color: #f92672;
+  border-width: 3px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 13px 31px rgba(0, 0, 0, 0.3); }
+
+.bubbleTitle {
+  position: relative; }
+
+/*# sourceMappingURL=bubbles.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "disptools",
+  "version": "0.0.0",
+  "description": "Various React classes for web UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "Monty Galloway",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "masonry-layout": "^4.1.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}

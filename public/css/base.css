@@ -1,0 +1,26 @@
+/** Styles */
+html {
+  font-family: "Quicksand", sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #f5f7f9;
+  padding: 0; }
+
+div {
+  display: block; }
+
+body {
+  min-height: 100%;
+  color: #4d4d4d; }
+
+strong {
+  font-weight: bold; }
+
+a {
+  display: block; }
+
+.navbar a {
+  display: inline;
+  padding: 4px; }
+
+/*# sourceMappingURL=base.css.map */

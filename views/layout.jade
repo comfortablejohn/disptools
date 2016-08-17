@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", type="text/css")
+        link(rel="stylesheet", href="/css/base.css", type="text/css")
+        link(rel="stylesheet", href="/css/#{title}.css", type="text/css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Quicksand" )
+
+        script(src="https://npmcdn.com/react@15.3.0/dist/react.js")
+        script(src="https://npmcdn.com/react-dom@15.3.0/dist/react-dom.js")
+        script(src="https://npmcdn.com/babel-core@5.8.38/browser.min.js")
+    body
+        block navbar
+            include navbar
+        block content

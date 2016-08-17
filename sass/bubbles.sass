@@ -1,0 +1,33 @@
+@import "common"
+
+html
+    font-family: $font-stack
+
+@keyframes wobble
+    0%
+        bottom: 0
+    100%
+        bottom: 30px
+
+.bubbleGroup
+    // display: inline
+    // position: relative
+    // word-wrap: normal
+
+.bubble
+    position: relative
+    float: left
+    border-radius: 50%
+    border-color: $pink
+    border-width: 3px
+    border-style: solid
+    background-color: white
+    text-align: center
+    box-shadow: 0 13px 31px rgba(0, 0, 0, 0.3)
+
+
+.bubbleTitle
+    position: relative
+
+// .bubble:hover
+    // animation: wobble 0.25s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both
