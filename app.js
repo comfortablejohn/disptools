@@ -5,6 +5,7 @@ var debug = require("debug");
 var routes = require("./routes/index");
 var grid = require("./routes/grid");
 var bubbles = require("./routes/bubbles")
+var bubblesSVG = require("./routes/bubblesSVG")
 
 var app = express();
 
@@ -16,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", routes)
 app.use("/grid", grid)
 app.use("/bubbles", bubbles)
+app.use("/bubblesSVG", bubblesSVG)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

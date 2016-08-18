@@ -1,0 +1,24 @@
+html {
+  font-family: "Quicksand", sans-serif; }
+
+@keyframes wobble {
+  0% {
+    fill: red; }
+  100% {
+    fill: blue; } }
+.svgcircle {
+  stroke: black;
+  fill: red;
+  transition: 2s;
+  transition-timing-function: ease; }
+
+.svgcircletext {
+  fill: white; }
+
+.bubbleTitle {
+  position: relative; }
+
+.svgcircle:hover {
+  animation: wobble 1.25s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both; }
+
+/*# sourceMappingURL=bubblesSVG.css.map */

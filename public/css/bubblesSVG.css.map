@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACA,WAAW,ECFF,uBAAY;;;;IDMjB,IAAI,EAAE,GAAG;;IAET,IAAI,EAAE,IAAI;AAIlB,UAAU;EACN,MAAM,EAAE,KAAK;EACb,IAAI,EAAE,GAAG;EACT,UAAU,EAAE,EAAE;EACd,0BAA0B,EAAE,IAAI;;AAOpC,cAAc;EACV,IAAI,EAAE,KAAK;;AAEf,YAAY;EACR,QAAQ,EAAE,QAAQ;;AAEtB,gBAAgB;EACZ,SAAS,EAAE,uEAAoE",
+"sources": ["../../sass/bubblesSVG.sass","../../sass/common.sass"],
+"names": [],
+"file": "bubblesSVG.css"
+}
